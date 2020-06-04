@@ -973,8 +973,6 @@ img {
   overflow: hidden; */
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
-  position: relative;
-  overflow: hidden;
 }
 
 .card-set__item:hover::before {
@@ -994,7 +992,9 @@ img {
 
 .card-set__link {
 }
-.card-set__img {
+.card-set__image {
+  position: relative;
+  width: 100%;
 }
 .card-set__tabs {
   padding: 20px 24px;
