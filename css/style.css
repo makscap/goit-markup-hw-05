@@ -975,9 +975,9 @@ img {
     0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 
-.card-set__item:hover::before {
+/* .card-set__item:hover::before {
   opacity: 1;
-}
+} */
 
 .card-set__div {
 }
@@ -992,16 +992,15 @@ img {
 
 .card-set__link {
 }
-.card-set__image {
+.card-set__img {
   position: relative;
-  width: 100%;
+}
+
+.card-set__label {
 }
 .card-set__tabs {
   padding: 20px 24px;
   border: 1px solid var(--border-card);
-  /* border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-top: transparent; */
 }
 .card-set__p {
   position: absolute;
